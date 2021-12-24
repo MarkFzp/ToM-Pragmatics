@@ -1,0 +1,15 @@
+train_folder=G4_7_cand
+train_permute=False
+pretrain=True
+train_dataset_path=../../../Desktop/Datasets/Geometry3D_4/Geometry3D_4_7dis_Train.npy
+dataset_attributes_path=../../../Desktop/Datasets/Geometry3D_4/Geometry3D_4_attributes.npy
+pretrain_feature_path=../../../Desktop/Datasets/Geometry3D_4/
+test_folder_path=./checkpoints_train_G4_7_cand_with_permute_with_pretrain/
+test_dataset_path=../../../Desktop/Datasets/Geometry3D_4/Geometry3D_4_7dis_Test.npy
+test_permute=False
+max_concept_len=4
+num_attributes=18
+input_data_len=36
+num_candidates=7
+ckpt_name=rand_atanh_dl10_ml1_temp0.35_bl0.01_bs0.01
+concept_folder=Geometry3D_4/
